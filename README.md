@@ -11,11 +11,12 @@
 
 2. Start the app
 
-1) Меняем в файле proxiServer.js адресс https://dev-application на свой адрес к api.
+1) In the proxiServer.js file, change the address https://dev-application... to your own API address.
 
-2) С фронта все запросы (только при работе с localHost) отправляем на http://localhost:3000/api/
-
-3)  ```bash
+2)  ```bash
     npm run start
    ```
+
+4) From the frontend, send all requests (only when working with localHost) to http://localhost:3000/api/.
+
  # proxy-server

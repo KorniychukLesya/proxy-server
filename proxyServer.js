@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 app.use('/api', createProxyMiddleware({
     
     // Меняем url на свой urj к api
-    target: 'https://dev-application.fleetsoft.pro/v3/',
+    target: 'https://dev-application...',
     changeOrigin: true,
     pathRewrite: {
         '^/api': '', 
