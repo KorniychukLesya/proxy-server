@@ -15,7 +15,6 @@
 
 2)  ```bash
     npm run start
-   ```
 
 4) From the frontend, send all requests (only when working with localHost) to http://localhost:3000/api/.
 
